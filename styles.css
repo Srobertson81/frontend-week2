@@ -1,0 +1,47 @@
+body {
+    background-color: cornflowerblue;
+}
+a {
+    color: darkgrey;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+a:hover {
+    background-color: lightpink;
+}
+h1, h3, h4 {
+   color: cornsilk;
+}
+ul, li {
+    color: darkmagenta;
+    
+}
+img {
+    border: 3px solid  black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid darkmagenta;
+}
+tr:nth-child(even) {
+    background-color: lightpink;
+}
+#form {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: orange;
+}
+input {
+    color: orange;
+}
+::placeholder {
+    color: orange;
+}
+.beach {
+    border: 3px solid orange;
+}
